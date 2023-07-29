@@ -1,16 +1,16 @@
 Package: iptsd
-Version: 1.3.0-1
+Version: 1.3.1-1
 Architecture: amd64
 Maintainer: Dorian Stoll <dorian.stoll@tmsp.io>
 Installed-Size: 5656
 Depends: systemd, udev, libc6 (>= 2.29), libcairomm-1.0-1v5 (>= 1.12.0), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
 Priority: optional
 Section: misc
-Filename: pool/main/i/iptsd/iptsd_1.3.0-1_amd64.deb
-Size: 974202
-SHA256: 1fb6608f7927463e1c48c99c08cb2c48dd1d7b37dc36a8d0c7fbbfb971728552
-SHA1: bdde07e98a4f6efe5de45c3bd667f36d2d3b4ccc
-MD5sum: 2f8328f1c3ea0f1d5ab2d760346a473f
+Filename: pool/main/i/iptsd/iptsd_1.3.1-1_amd64.deb
+Size: 973910
+SHA256: 5d4a1d6496e14cbc3727bd1422f975c57a98829dc5e70be48c04c6c0be1bb6fa
+SHA1: 2044607cb69a5e12bc51ffecfde675d1b7b70670
+MD5sum: 2f5b50dc59e71b94e43ae27cad426b83
 Description: Userspace daemon for Intel Precise Touch & Stylus
 
 Package: libwacom-bin-surface
@@ -1314,21 +1314,40 @@ Description: Linux kernel headers for 6.4.4-surface on amd64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-6.4.7-surface
+Source: linux-upstream
+Version: 6.4.7-surface-2
+Architecture: amd64
+Maintainer: root <root@8a4a9806f234>
+Installed-Size: 54447
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.4.7-surface_6.4.7-surface-2_amd64.deb
+Size: 9219372
+SHA256: 1f3d9a556a03b2f72f88fe0ba9a6a92c4bb6072ddbec5a99a866b6df7e5814db
+SHA1: bbb67625b9f1a8ed897654d6903176d8619cd171
+MD5sum: 6d0768ccdd883f47c19244fd42a7489f
+Description: Linux kernel headers for 6.4.7-surface on amd64
+ This package provides kernel header files for 6.4.7-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-surface
 Source: linux-surface
-Version: 6.4.4-surface-3
+Version: 6.4.7-surface-2
 Architecture: amd64
 Maintainer: surfacebot <surfacebot@users.noreply.github.com>
 Installed-Size: 7
-Depends: linux-headers-6.4.4-surface (= 6.4.4-surface-3)
+Depends: linux-headers-6.4.7-surface (= 6.4.7-surface-2)
 Homepage: https://github.com/linux-surface/linux-surface
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface/linux-headers-surface_6.4.4-surface-3_amd64.deb
+Filename: pool/main/l/linux-surface/linux-headers-surface_6.4.7-surface-2_amd64.deb
 Size: 2458
-SHA256: 86e2a75816fd7cf1883aab79d3740186ed1711df991c6cd993b707f135159a24
-SHA1: f1d5bf08412d12b279ed60153ad060338b690452
-MD5sum: e691080ad9cdab168baca8712ae2b285
+SHA256: 4db96fc35b28af345f8cb5a7df2e470ae5d334b89d3c776ef8dc09e6eb413d8a
+SHA1: ef18f45090aec72c3be76d24642268bfe829e8e9
+MD5sum: 4b580215005d9b72bc65bd4c05d113dd
 Description:
   Meta-package for linux-surface headers.
 
@@ -2466,22 +2485,40 @@ Description: Linux kernel, version 6.4.4-surface
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.4.4-surface.
 
+Package: linux-image-6.4.7-surface
+Source: linux-upstream
+Version: 6.4.7-surface-2
+Architecture: amd64
+Maintainer: root <root@8a4a9806f234>
+Installed-Size: 135538
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.4.7-surface_6.4.7-surface-2_amd64.deb
+Size: 120966490
+SHA256: cce4df67c88145e4c7896a294553f735e9cc382fac5345fb21903ac53a157878
+SHA1: b9a768023e2c80d10e2299613f86727b93172576
+MD5sum: 08bafa1448baf25598488e6a8fe3425a
+Description: Linux kernel, version 6.4.7-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.4.7-surface.
+
 Package: linux-image-surface
 Source: linux-surface
-Version: 6.4.4-surface-3
+Version: 6.4.7-surface-2
 Architecture: amd64
 Maintainer: surfacebot <surfacebot@users.noreply.github.com>
 Installed-Size: 7
-Depends: linux-image-6.4.4-surface (= 6.4.4-surface-3)
+Depends: linux-image-6.4.7-surface (= 6.4.7-surface-2)
 Recommends: iptsd
 Homepage: https://github.com/linux-surface/linux-surface
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface/linux-image-surface_6.4.4-surface-3_amd64.deb
-Size: 2466
-SHA256: 991a299c67a0f4039baa9672995c248b21c7b75d6782efcc5b14b78ac3c354f7
-SHA1: a2b1dfbc5e6a119d78a0e33c06773f15cb280a17
-MD5sum: 65381e052b71bdaf627962d3c1779a22
+Filename: pool/main/l/linux-surface/linux-image-surface_6.4.7-surface-2_amd64.deb
+Size: 2470
+SHA256: 48573ec2878f148c80642de1d28b4c2a16103d9dfba59b6bbc3839df1344ed62
+SHA1: ca7f47efce7e2781727705fabbd84213442e1c70
+MD5sum: a78492ea066648efe5cc7436eb4c3e6a
 Description:
   Meta-package for linux-surface kernel images.
 
