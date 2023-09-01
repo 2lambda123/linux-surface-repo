@@ -1219,25 +1219,6 @@ Description: Linux kernel headers for 6.3.1-surface on amd64
  .
  This is useful for people who need to build external modules
 
-Package: linux-headers-6.3.2-surface
-Source: linux-upstream
-Version: 6.3.2-surface-1
-Architecture: amd64
-Maintainer: root <root@c542829af65c>
-Installed-Size: 54066
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-upstream/linux-headers-6.3.2-surface_6.3.2-surface-1_amd64.deb
-Size: 9157540
-SHA256: 5e7aff21cbf5b3f68c150c0fb7c5a1e958cd8296156d9e6a9897705220ace96a
-SHA1: c50d932602be0dd1087457f5c452fe86a39c0a4b
-MD5sum: 1ebbbacca30add79cdb99ffba64bae13
-Description: Linux kernel headers for 6.3.2-surface on amd64
- This package provides kernel header files for 6.3.2-surface on amd64
- .
- This is useful for people who need to build external modules
-
 Package: linux-headers-6.3.3-surface
 Source: linux-upstream
 Version: 6.3.3-surface-1
