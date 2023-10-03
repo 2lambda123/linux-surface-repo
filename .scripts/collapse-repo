@@ -5,6 +5,7 @@ N_COMMITS_KEEP=25
 
 # get base commit for repo branch
 git checkout repo
+git pull
 BASE=$(git rev-parse "HEAD~${N_COMMITS_KEEP}")
 echo "==> Using commit ${BASE} as base"
 

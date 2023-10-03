@@ -3,6 +3,10 @@ set -e
 
 N_COMMITS_KEEP=25
 
+# update branches
+git checkout u/current && git pull
+git checkout u/staging && git pull
+
 # get base commit for u/current and u/staging
 git checkout u/current
 BASE=$(git rev-parse "HEAD~${N_COMMITS_KEEP}")
