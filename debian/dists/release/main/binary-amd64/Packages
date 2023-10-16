@@ -1354,18 +1354,18 @@ Description: Linux kernel headers for 6.5.5-surface on amd64
 
 Package: linux-headers-6.5.6-surface
 Source: linux-upstream
-Version: 6.5.6-surface-2
+Version: 6.5.6-surface-3
 Architecture: amd64
-Maintainer: root <root@c64964916434>
+Maintainer: root <root@b865fcd439cf>
 Installed-Size: 55073
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-upstream/linux-headers-6.5.6-surface_6.5.6-surface-2_amd64.deb
-Size: 9300892
-SHA256: 10f95f55ef90e8013df6f02f6635ec060efe3a557a3f07df7967aa3903b3aba5
-SHA1: 970efd20dbd7a7c38bc4e19d2506dcddbf934656
-MD5sum: dda191ee08cdbb53e74a2a7defdbfcf4
+Filename: pool/main/l/linux-upstream/linux-headers-6.5.6-surface_6.5.6-surface-3_amd64.deb
+Size: 9303804
+SHA256: 1cc2457c6576878e6a230232f5d1e5b5df616ec141bba4b363c53a0538752fef
+SHA1: 74e7c76e31f1697048a82c8a2daa0e8a9395c4dd
+MD5sum: 720f54e212d9082288fcccbc093390cd
 Description: Linux kernel headers for 6.5.6-surface on amd64
  This package provides kernel header files for 6.5.6-surface on amd64
  .
@@ -1373,19 +1373,19 @@ Description: Linux kernel headers for 6.5.6-surface on amd64
 
 Package: linux-headers-surface
 Source: linux-surface
-Version: 6.5.6-surface-2
+Version: 6.5.6-surface-3
 Architecture: amd64
 Maintainer: surfacebot <surfacebot@users.noreply.github.com>
 Installed-Size: 7
-Depends: linux-headers-6.5.6-surface (= 6.5.6-surface-2)
+Depends: linux-headers-6.5.6-surface (= 6.5.6-surface-3)
 Homepage: https://github.com/linux-surface/linux-surface
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface/linux-headers-surface_6.5.6-surface-2_amd64.deb
-Size: 2458
-SHA256: 8a56900639605c13b6b285ba930b83f61438b3e76702bf1369ccadbd9f8427a0
-SHA1: 4417c1e5dde888ec07ffb114be2c5d8b08a25beb
-MD5sum: 8620416118612a98ee588dd9c0070bab
+Filename: pool/main/l/linux-surface/linux-headers-surface_6.5.6-surface-3_amd64.deb
+Size: 2454
+SHA256: ce9f9b2efb356acc0a26b7279c916e31845e452bdabe6b8fbd0d389b017e076c
+SHA1: d8e77529b25085cc24fc60b336b2bc5732abae00
+MD5sum: 8f773ffffcad40097373e06fa4dfc35a
 Description:
   Meta-package for linux-surface headers.
 
@@ -2579,38 +2579,38 @@ Description: Linux kernel, version 6.5.5-surface
 
 Package: linux-image-6.5.6-surface
 Source: linux-upstream
-Version: 6.5.6-surface-2
+Version: 6.5.6-surface-3
 Architecture: amd64
-Maintainer: root <root@c64964916434>
-Installed-Size: 113419
+Maintainer: root <root@b865fcd439cf>
+Installed-Size: 433718
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-upstream/linux-image-6.5.6-surface_6.5.6-surface-2_amd64.deb
-Size: 98189482
-SHA256: 804717aa003c293927be6e3102cfe068f96030de708aec35a2e65dd95372ee69
-SHA1: 354f81e1f0a65558cf5eab43603d3981e4925d37
-MD5sum: 610704a328541fb4c955df3ce2e6b404
+Filename: pool/main/l/linux-upstream/linux-image-6.5.6-surface_6.5.6-surface-3_amd64.deb
+Size: 82481826
+SHA256: 3f7b4d553a3d36dc2016642974ea4dfbe0b228a7d9e22ecb4f25d4198cc35b88
+SHA1: 236cb9913caea3d0fe92c8e57df40c703b29a10f
+MD5sum: 0aed88ede39e264758badb57740c096e
 Description: Linux kernel, version 6.5.6-surface
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.5.6-surface.
 
 Package: linux-image-surface
 Source: linux-surface
-Version: 6.5.6-surface-2
+Version: 6.5.6-surface-3
 Architecture: amd64
 Maintainer: surfacebot <surfacebot@users.noreply.github.com>
 Installed-Size: 7
-Depends: linux-image-6.5.6-surface (= 6.5.6-surface-2)
+Depends: linux-image-6.5.6-surface (= 6.5.6-surface-3)
 Recommends: iptsd
 Homepage: https://github.com/linux-surface/linux-surface
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface/linux-image-surface_6.5.6-surface-2_amd64.deb
-Size: 2470
-SHA256: 1520a73f015ddf210854639d773f5e750519a934877957ab8bc51f0b9004ee1e
-SHA1: eb4ce4b85680d8d17d43362c548825e8a50e652b
-MD5sum: 42513864b87f1b8f7fa611ebede1d47f
+Filename: pool/main/l/linux-surface/linux-image-surface_6.5.6-surface-3_amd64.deb
+Size: 2466
+SHA256: a328f281ccb3682c3001b76fb74370a4692e0d6c6770734b6945607262d56f63
+SHA1: c60b7eb74a42529ff46888678896fad2fa571849
+MD5sum: c0e7574708305536aafc5e736d07d2d5
 Description:
   Meta-package for linux-surface kernel images.
 
