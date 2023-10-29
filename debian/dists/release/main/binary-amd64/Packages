@@ -1390,6 +1390,25 @@ Description: Linux kernel headers for 6.5.7-surface-1 on amd64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-6.5.7-surface-2
+Source: linux-upstream
+Version: 6.5.7-surface-2
+Architecture: amd64
+Maintainer: root <root@ca5b3cda0b19>
+Installed-Size: 55106
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.5.7-surface-2_6.5.7-surface-2_amd64.deb
+Size: 9300228
+SHA256: ddad682781d2d98adfce9f65efefccb90fcaae1c29e9c865bd492d43201559f7
+SHA1: cb3df28baab4e6cf30e0f6a4bf4acc75c4ebf8cc
+MD5sum: 2d6bfef4a531f01368e9321b1fe96fe7
+Description: Linux kernel headers for 6.5.7-surface-2 on amd64
+ This package provides kernel header files for 6.5.7-surface-2 on amd64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-surface
 Source: linux-surface
 Version: 6.5.7-surface-1-1
@@ -2631,6 +2650,24 @@ MD5sum: 8da8c3e13113baa5cfc5068b5d27f669
 Description: Linux kernel, version 6.5.7-surface-1
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.5.7-surface-1.
+
+Package: linux-image-6.5.7-surface-2
+Source: linux-upstream
+Version: 6.5.7-surface-2
+Architecture: amd64
+Maintainer: root <root@ca5b3cda0b19>
+Installed-Size: 433683
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.5.7-surface-2_6.5.7-surface-2_amd64.deb
+Size: 82459002
+SHA256: 30ea38ffc45d944847d5bceda186e114172bfb8c45accfad13fbaad5902454dc
+SHA1: 4f85a05a84201b5e0c6cfa4dd5319e428c8f0c62
+MD5sum: 0da2a9bec49c4c9f0e6bf8f8a7120fa1
+Description: Linux kernel, version 6.5.7-surface-2
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.5.7-surface-2.
 
 Package: linux-image-surface
 Source: linux-surface
