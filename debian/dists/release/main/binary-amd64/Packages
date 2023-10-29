@@ -1409,24 +1409,6 @@ Description: Linux kernel headers for 6.5.7-surface-2 on amd64
  .
  This is useful for people who need to build external modules
 
-Package: linux-headers-surface
-Source: linux-surface
-Version: 6.5.7-surface-1-1
-Architecture: amd64
-Maintainer: surfacebot <surfacebot@users.noreply.github.com>
-Installed-Size: 7
-Depends: linux-headers-6.5.7-surface-1 (= 6.5.7-surface-1-1)
-Homepage: https://github.com/linux-surface/linux-surface
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-surface/linux-headers-surface_6.5.7-surface-1-1_amd64.deb
-Size: 2462
-SHA256: db4c86d060d5c248d00a194e2be13be1bf49f5b5f44818017c174d2695e79fa8
-SHA1: deee5d2d349567d752507fb06cd91e437db98923
-MD5sum: ac81edad176dea393177aab3fa1cbaf1
-Description:
-  Meta-package for linux-surface headers.
-
 Package: linux-headers-surface-lts
 Source: linux-surface-lts
 Version: 4.19.206-surface-lts-1
@@ -2668,25 +2650,6 @@ MD5sum: 0da2a9bec49c4c9f0e6bf8f8a7120fa1
 Description: Linux kernel, version 6.5.7-surface-2
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.5.7-surface-2.
-
-Package: linux-image-surface
-Source: linux-surface
-Version: 6.5.7-surface-1-1
-Architecture: amd64
-Maintainer: surfacebot <surfacebot@users.noreply.github.com>
-Installed-Size: 7
-Depends: linux-image-6.5.7-surface-1 (= 6.5.7-surface-1-1)
-Recommends: iptsd
-Homepage: https://github.com/linux-surface/linux-surface
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-surface/linux-image-surface_6.5.7-surface-1-1_amd64.deb
-Size: 2470
-SHA256: 58c3ccb5fd721fa4def3232050d0ae2802dab2db549601c11748eebe5672b36e
-SHA1: 76a1d3faf28cd2fe0af8874ba1b3c6a1274b4d03
-MD5sum: 6d114c2d0f3b60fed10b955a61075d79
-Description:
-  Meta-package for linux-surface kernel images.
 
 Package: linux-image-surface-lts
 Source: linux-surface-lts

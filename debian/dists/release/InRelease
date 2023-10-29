@@ -4,35 +4,35 @@ Hash: SHA512
 Origin: com.github.linux-surface.linux-surface
 Label: linux-surface
 Codename: release
-Date: Sun, 29 Oct 2023 14:26:18 UTC
+Date: Sun, 29 Oct 2023 16:39:39 UTC
 Architectures: amd64
 Components: main
 Description: APT repository for linux-surface
 MD5Sum:
- 8fe5adadb707f011aeafe63d09660e60 101084 main/binary-amd64/Packages
- 21b86046b4106de2fc7b41714d10916f 21232 main/binary-amd64/Packages.gz
+ 0331e65e286e89122b1a506a4ce0103b 99778 main/binary-amd64/Packages
+ 4eecfbf2c6a861700395ca56a12cea11 20973 main/binary-amd64/Packages.gz
  15ab90745e7c52aee5b806236c34ac2a 150 main/binary-amd64/Release
 SHA1:
- 32f6ce58412c1de213c58391f5a051d4635714e6 101084 main/binary-amd64/Packages
- 5846896efb5e71e033b891fd89a66e1c7cfed4f5 21232 main/binary-amd64/Packages.gz
+ c5996d9ae0f23995d29703ebc892f628ff4ecb4c 99778 main/binary-amd64/Packages
+ b470bf15fabf4e9253c38710dd0a52a849faa2ec 20973 main/binary-amd64/Packages.gz
  dacb6eb20dd4d3620ac83380078a85fa95226d17 150 main/binary-amd64/Release
 SHA256:
- db158b897c0e5ceb2930f398db6ca1d6ab1f27f882f371120624793ad9ec4327 101084 main/binary-amd64/Packages
- 11f0e083a634e9a7c42cbc869ba95d09b2abe396b495b1673c2dfa3ea51b0142 21232 main/binary-amd64/Packages.gz
+ bb2759d11a2df1dc1e0477d88cd606d0c9ca771befbc9e909578b9ffee781f58 99778 main/binary-amd64/Packages
+ 240c6f77f67a1774693fcb31f068d04dde71eda20b043835c2f3beae79864a25 20973 main/binary-amd64/Packages.gz
  cebcefab064213b3eb64a98c1836a7fd496be058d1ea40de050bb9c2e5db5770 150 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEh976SrlKmaTIwxElVsRkuqxCFFMFAmU+a4oACgkQVsRkuqxC
-FFNCvBAAgjKuATdQgEtlVeYmjwlRUk955xUGZ3z83ecinv4nM3u82tFrDACmvJc3
-W2pJE/iJiz5u3uMml1Gqu3rYTNghldESemDIHJvaLSncVjFvEKUSZRrwPlcuyl9J
-Q2ipVEjHuYVeIY80KBEyymSLxIv98t7HnDVKJYLieq3lM75o49I2JKxUG9ghy8cG
-y6DbvrsjdaO/22TEMjON1wbd5kvGbgXEJ5FO0ahf2V5yvmIwQI04agP9lrky23dJ
-Xx6OHxk75gQkz/ZhyTbD/X7LtKw8l6yMMaTMpj3wHcdGIKzyFC+cRJqDFqjZKFkj
-6Lkv4YzkPJzvPjSccFk7yp4xRnz7i1IwOQh/9ENrAQNWRwyan09kr6P/uv4Rwq3d
-TilA1J+pIkuBOy/m74OscyNvUaFYtY1yW5htXBLapr4eX45vigNk8XJT8A3/GIpA
-A17SOubamdhmD7OKOulyxSnRW0tvJ5kC2ShAazfczfxzTvAfqQJi0IsUSUj5pBL4
-QmKThY1l9yT2jdjqK3acTxI2uV+/t0KloOrdDaFuvwEXvymLOMIKAbuVj/rkn72Z
-ktH9IW57PwqDjuph7wOHU4F0WS8JhRG3xBBG5ujkBy/aRJg0Yv3ICEUHWLUzG0fR
-KoDiele6LO7IyGLRg6DHvXOxw1SfSEJeCZiltC0tUNBz+ijuNso=
-=iIJJ
+iQIzBAEBCgAdFiEEh976SrlKmaTIwxElVsRkuqxCFFMFAmU+issACgkQVsRkuqxC
+FFMn0A/+LAxRb/6sX1SBnrsah3C9PHhwAyajAWVj1FHj9O4TZO0L3XnZ9rhuc3IY
+uu+673X403t9zRKoZW418n/x3JBLHJtSBWQ4MY3Lz731E3CKH13khzzPJ2VFQur+
+6jCoBf1MUYAczv8yFzyaoI35fEm+CBoStWddUG6K452XHBfauZO3Pv/qWm5BV9aX
+cYNOpQ2+LSBdkvPrHZrkSiHWGFdZrTZbXXwx331BWHitM/Hmdmn7joH1gsPEEa/h
+TBWyXY5tNqB0ynWIKbHh0VLEttqBo9f+cMMIx62PtSHzn9R3mnoqCQ39qbVj6vVb
+M8IYCBe8rUiDij3MX2rovxv3rQ3TCoNkGwiokSNyiM+izivu5lnqYkrPU0vYojvw
+Fa+egJuX8sxxfpOyngd1UlVAh8t1iof0oC1L47ZUg4hYRjAbDbwth9jOMbclRNNN
+BcBcWzsy+1kSpcTy+Znm9xDJcccwCRwllWiCS/jjCfMK4jjepwQgK9dgW3agLh+7
+fRlTp/SIxWYAkgZhENNIUfcUaGa1uMtFWXqTk11A7yRNnh5g4GCXdLmIf6IEpCPa
+hwWbJU5kK4y+NbYn78pp4vLkAC7TSjxxM0ECuK+b88ZMThwvmSfHPFpwOrpwvSnG
+IrRSFYLMfJUkeiyx60CRcXjROhKi3M6mwfeBRDXTyOPldeEK/b8=
+=k677
 -----END PGP SIGNATURE-----
