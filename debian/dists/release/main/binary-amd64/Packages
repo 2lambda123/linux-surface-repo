@@ -14,127 +14,127 @@ MD5sum: f51eda25ca5fa417c3d4eab24d607a66
 Description: Userspace daemon for Intel Precise Touch & Stylus
 
 Package: libwacom-bin-surface
-Version: 2.8.0-2
+Version: 2.9.0-1
 Priority: optional
 Section: misc
-Filename: pool/main/libw/libwacom-bin-surface/libwacom-bin-surface_2.8.0-2_amd64.deb
-Size: 14236
-SHA256: be64cb56e681ef233a059682786efec3e56d520f8809561625632a4aab58d9dc
-SHA1: fc69d7584c57d8a6b2b0100157468bbafb237c61
-MD5sum: 4554b539d5ca1ee346d19b64529232f4
+Filename: pool/main/libw/libwacom-bin-surface/libwacom-bin-surface_2.9.0-1_amd64.deb
+Size: 14274
+SHA256: 3f7a8d57220ba701066c76f48505772ccdb12659ca42806f38c051a2c117c1d3
+SHA1: 399255e156578b600d23fe6bfbb3c171fee16ac0
+MD5sum: 0c6b81d3aed6b3d74c08648c0e527edb
 Description: Patched libwacom for Microsoft Surface devices
 Architecture: amd64
 License: MIT
 Maintainer: Maximilian Luz <luzmaximilian@gmail.com>
 Homepage: https://github.com/linux-surface/libwacom
-Depends: libglib2.0-0, libgudev-1.0-0, systemd, libwacom9-surface (= 2.8.0-2)
+Depends: libglib2.0-0, libgudev-1.0-0, systemd, libwacom9-surface (= 2.9.0-1)
 Conflicts: libwacom-bin
-Provides: libwacom-bin (= 2.8.0-2)
+Provides: libwacom-bin (= 2.9.0-1)
 
 Package: libwacom-common-surface
-Version: 2.8.0-2
+Version: 2.9.0-1
 Priority: optional
 Section: misc
-Filename: pool/main/libw/libwacom-common-surface/libwacom-common-surface_2.8.0-2_amd64.deb
-Size: 91334
-SHA256: bfdef0f5b3a778defcff5bda671d81d01761502eec20d52695ee02599edcdce5
-SHA1: 2cdd32af362e39c7ba310b326bfd320e15ef8fe4
-MD5sum: eb13037fad2a1542334cb3add7616d61
+Filename: pool/main/libw/libwacom-common-surface/libwacom-common-surface_2.9.0-1_amd64.deb
+Size: 93674
+SHA256: aa280a1ef2839a5560c16d9a8dffeec21e481df0efdfb475c160c5bb6847a123
+SHA1: 9e21f72d08dc14e96134f532f46888c1373bf141
+MD5sum: 3976ad381a119c9b60b52fed0446e145
 Description: Patched libwacom for Microsoft Surface devices
 Architecture: amd64
 License: MIT
 Maintainer: Maximilian Luz <luzmaximilian@gmail.com>
 Homepage: https://github.com/linux-surface/libwacom
 Conflicts: libwacom-common
-Provides: libwacom-common (= 2.8.0-2)
+Provides: libwacom-common (= 2.9.0-1)
 
 Package: libwacom-surface
-Version: 2.8.0-2
+Version: 2.9.0-1
 Priority: optional
 Section: misc
-Filename: pool/main/libw/libwacom-surface/libwacom-surface_2.8.0-2_amd64.deb
+Filename: pool/main/libw/libwacom-surface/libwacom-surface_2.9.0-1_amd64.deb
 Size: 1870
-SHA256: d30859504a7cec6f69c81d4cb36c2dbde8daa6475fc51ba8733f575d79e2772f
-SHA1: 815d5390c17ec20e0588180cc126c56896426c05
-MD5sum: 6e08940a789ca96d372d79decfa25fec
+SHA256: 917713a545f6b060beca2610e6eda206fea17a52dd0c5e0643967a438cb8a976
+SHA1: 83d2149d263ce214bcdee1e9a961d4ed8603157b
+MD5sum: be0c4388697fecfb07c933b32971d6fe
 Description: Patched libwacom for Microsoft Surface devices
 Architecture: amd64
 License: MIT
 Maintainer: Maximilian Luz <luzmaximilian@gmail.com>
 Homepage: https://github.com/linux-surface/libwacom
-Depends: libwacom2-surface (= 2.8.0-2), libwacom9-surface (= 2.8.0-2), libwacom-bin-surface (= 2.8.0-2), libwacom-common-surface (= 2.8.0-2)
+Depends: libwacom2-surface (= 2.9.0-1), libwacom9-surface (= 2.9.0-1), libwacom-bin-surface (= 2.9.0-1), libwacom-common-surface (= 2.9.0-1)
 
 Package: libwacom2-dev-surface
-Version: 2.8.0-2
+Version: 2.9.0-1
 Priority: optional
 Section: misc
-Filename: pool/main/libw/libwacom2-dev-surface/libwacom2-dev-surface_2.8.0-2_amd64.deb
-Size: 8512
-SHA256: ff084b1a5130d2fa1dc9a2fc760bb145e3c393b4bbefcfabc24591ccd8f01c33
-SHA1: eef7b8c601ab33529a039ee0b59d32831e56f0f1
-MD5sum: d9b504619560da5843e56139bafab23c
+Filename: pool/main/libw/libwacom2-dev-surface/libwacom2-dev-surface_2.9.0-1_amd64.deb
+Size: 8518
+SHA256: 2d7dbe59db1eac9df42fa98379951669d985d24ce7454f2f8af2529ee25834ff
+SHA1: 66c337220cd94bb51e1e27664ebee5848b53c4d3
+MD5sum: 7e9ad38aa40473b7f92e43470a3643dd
 Description: Patched libwacom for Microsoft Surface devices
 Architecture: amd64
 License: MIT
 Maintainer: Maximilian Luz <luzmaximilian@gmail.com>
 Homepage: https://github.com/linux-surface/libwacom
-Depends: libglib2.0-dev, libgudev-1.0-dev, libwacom2-surface (= 2.8.0-2)
+Depends: libglib2.0-dev, libgudev-1.0-dev, libwacom2-surface (= 2.9.0-1)
 Conflicts: libwacom-dev, libwacom9-dev-surface
-Provides: libwacom-dev (= 1.12.1-2)
+Provides: libwacom-dev (= 1.12.1-1)
 
 Package: libwacom2-surface
-Version: 2.8.0-2
+Version: 2.9.0-1
 Priority: optional
 Section: misc
-Filename: pool/main/libw/libwacom2-surface/libwacom2-surface_2.8.0-2_amd64.deb
-Size: 22888
-SHA256: 91804e7673fc69b51fd947dba3124e719bf97792fb4e0a7a70e033692d096c14
-SHA1: 428aad35be282edb1853b4018700945d82729df7
-MD5sum: 22d8fb879cb6b3ba3a4f14b0d64ad28c
+Filename: pool/main/libw/libwacom2-surface/libwacom2-surface_2.9.0-1_amd64.deb
+Size: 22994
+SHA256: cd67244487c09570d3f1f2a4c33d96a795486fc22e9bea1d597a471f898c819f
+SHA1: 7ba51f2b121ce360d1c23073220f56746f30acd5
+MD5sum: ea4ec5a79c0f4ecb24533f061c67ed2a
 Description: Patched libwacom for Microsoft Surface devices
 Architecture: amd64
 License: MIT
 Maintainer: Maximilian Luz <luzmaximilian@gmail.com>
 Homepage: https://github.com/linux-surface/libwacom
-Depends: libglib2.0-0, libgudev-1.0-0, systemd, libwacom-common-surface (= 2.8.0-2)
+Depends: libglib2.0-0, libgudev-1.0-0, systemd, libwacom-common-surface (= 2.9.0-1)
 Conflicts: libwacom2
-Provides: libwacom2 (= 1.12.1-2)
+Provides: libwacom2 (= 1.12.1-1)
 
 Package: libwacom9-dev-surface
-Version: 2.8.0-2
+Version: 2.9.0-1
 Priority: optional
 Section: misc
-Filename: pool/main/libw/libwacom9-dev-surface/libwacom9-dev-surface_2.8.0-2_amd64.deb
-Size: 8518
-SHA256: 3759ad90925926244b2ad2dd7d04650c67019544ee2f7309f64852481c536534
-SHA1: 7c7e8d3b2cda2efa57c3107c85ad154037f1958d
-MD5sum: bb8f0a88275671f76aedd79fd0c1baf2
+Filename: pool/main/libw/libwacom9-dev-surface/libwacom9-dev-surface_2.9.0-1_amd64.deb
+Size: 8554
+SHA256: de63e546dd80899dfa33995388d41bd8ff325f6436c047c9e9e36751631dfe66
+SHA1: 1aab9105dfbe87fbd8aee336a7a224a7a6702fbf
+MD5sum: 88b848cc2ad2e6e2ac7ab031eef2c03a
 Description: Patched libwacom for Microsoft Surface devices
 Architecture: amd64
 License: MIT
 Maintainer: Maximilian Luz <luzmaximilian@gmail.com>
 Homepage: https://github.com/linux-surface/libwacom
-Depends: libglib2.0-dev, libgudev-1.0-dev, libwacom9-surface (= 2.8.0-2)
+Depends: libglib2.0-dev, libgudev-1.0-dev, libwacom9-surface (= 2.9.0-1)
 Conflicts: libwacom-dev, libwacom2-dev-surface
-Provides: libwacom-dev (= 2.8.0-2)
+Provides: libwacom-dev (= 2.9.0-1)
 
 Package: libwacom9-surface
-Version: 2.8.0-2
+Version: 2.9.0-1
 Priority: optional
 Section: misc
-Filename: pool/main/libw/libwacom9-surface/libwacom9-surface_2.8.0-2_amd64.deb
-Size: 22940
-SHA256: 006790cf1f87431d1688e66cb2ad7e551077240a3bcfd06dca11c54cd2d65651
-SHA1: a4263023558b5d212ffaf63b54fcea01ddb48934
-MD5sum: d6fc8ccc433b941b0b7c213d4d624ce7
+Filename: pool/main/libw/libwacom9-surface/libwacom9-surface_2.9.0-1_amd64.deb
+Size: 23488
+SHA256: 51f2271d576f959edd273244c7a5cb949b742e8b35ef6babaf89d024c089f569
+SHA1: 2d0c14ea3949506aeda540ec61e81cb55f8a3a17
+MD5sum: 97bb0b36c909083343e860f0731211db
 Description: Patched libwacom for Microsoft Surface devices
 Architecture: amd64
 License: MIT
 Maintainer: Maximilian Luz <luzmaximilian@gmail.com>
 Homepage: https://github.com/linux-surface/libwacom
-Depends: libglib2.0-0, libgudev-1.0-0, systemd, libwacom-common-surface (= 2.8.0-2)
+Depends: libglib2.0-0, libgudev-1.0-0, systemd, libwacom-common-surface (= 2.9.0-1)
 Conflicts: libwacom9
-Provides: libwacom9 (= 2.8.0-2)
+Provides: libwacom9 (= 2.9.0-1)
 
 Package: linux-headers-4.19.206-surface-lts
 Source: linux-4.19.206-surface-lts
@@ -1447,21 +1447,40 @@ Description: Linux kernel headers for 6.6.5-surface-1 on amd64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-6.6.6-surface-1
+Source: linux-upstream
+Version: 6.6.6-surface-1
+Architecture: amd64
+Maintainer: root <root@ddd98562ad2e>
+Installed-Size: 55625
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.6.6-surface-1_6.6.6-surface-1_amd64.deb
+Size: 9381248
+SHA256: d4751558cd87a599eb7e9edb62d76eacea3507e08a749f7c0194d069365d436b
+SHA1: fadd5453181dba85ebe86950cb48fe96b3114e1d
+MD5sum: 63cae688837d428a0bfdd947702872f0
+Description: Linux kernel headers for 6.6.6-surface-1 on amd64
+ This package provides kernel header files for 6.6.6-surface-1 on amd64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-surface
 Source: linux-surface
-Version: 6.6.5-surface-1
+Version: 6.6.6-surface-1
 Architecture: amd64
 Maintainer: surfacebot <surfacebot@users.noreply.github.com>
 Installed-Size: 7
-Depends: linux-headers-6.6.5-surface-1 (= 6.6.5-surface-1)
+Depends: linux-headers-6.6.6-surface-1 (= 6.6.6-surface-1)
 Homepage: https://github.com/linux-surface/linux-surface
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface/linux-headers-surface_6.6.5-surface-1_amd64.deb
+Filename: pool/main/l/linux-surface/linux-headers-surface_6.6.6-surface-1_amd64.deb
 Size: 2458
-SHA256: 5a078a45611d481fdf11f8cb268160411e34b76e99b3b2ede61f22c50191312c
-SHA1: 85fb8fd798bb45f0fc2ba7a81dfdee8328d737cd
-MD5sum: c7d9fc21456da8b3c2fb8bbf91632b95
+SHA256: 2407bc199e43661cc2538894ee557942260d31b3ff69523d4bb0635abaf07600
+SHA1: 2dae27076ef6077e1815776d7ffc65cc12075c80
+MD5sum: 7b0ca50294c3cebb14e7db621d8a84de
 Description:
   Meta-package for linux-surface headers.
 
@@ -2743,22 +2762,40 @@ Description: Linux kernel, version 6.6.5-surface-1
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.6.5-surface-1.
 
+Package: linux-image-6.6.6-surface-1
+Source: linux-upstream
+Version: 6.6.6-surface-1
+Architecture: amd64
+Maintainer: root <root@ddd98562ad2e>
+Installed-Size: 439364
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.6.6-surface-1_6.6.6-surface-1_amd64.deb
+Size: 83303838
+SHA256: 91566ccdf920f2c429a140dd3afab2e9a08bbc86768f0408528095a89a54d126
+SHA1: 8352038e98683454c38feeabe49771811f14248b
+MD5sum: c09f12f7700f65f2512468879d9b8fff
+Description: Linux kernel, version 6.6.6-surface-1
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.6.6-surface-1.
+
 Package: linux-image-surface
 Source: linux-surface
-Version: 6.6.5-surface-1
+Version: 6.6.6-surface-1
 Architecture: amd64
 Maintainer: surfacebot <surfacebot@users.noreply.github.com>
 Installed-Size: 7
-Depends: linux-image-6.6.5-surface-1 (= 6.6.5-surface-1)
+Depends: linux-image-6.6.6-surface-1 (= 6.6.6-surface-1)
 Recommends: iptsd
 Homepage: https://github.com/linux-surface/linux-surface
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface/linux-image-surface_6.6.5-surface-1_amd64.deb
-Size: 2470
-SHA256: 41eccbe471988c4d450df6929e9339cf3c5ff4b9f279c247bcee9f3030cd5216
-SHA1: 21b8c088f785e24a87e58403266feee7cbd6599e
-MD5sum: 48eeb746083e018930e539d16d9a7924
+Filename: pool/main/l/linux-surface/linux-image-surface_6.6.6-surface-1_amd64.deb
+Size: 2466
+SHA256: 867f49b5c7e54357521b3dd8114e68a651c34c58dc48c27b5077a1a843adae4a
+SHA1: 2501c57c3a9f6645306261814967a247a74dfd16
+MD5sum: d3a0a34a89ee5b9e921a75570da8faad
 Description:
   Meta-package for linux-surface kernel images.
 
