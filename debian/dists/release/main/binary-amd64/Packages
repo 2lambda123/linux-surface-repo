@@ -1428,6 +1428,25 @@ Description: Linux kernel headers for 6.6.1-surface-1 on amd64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-6.6.11-surface-1
+Source: linux-upstream
+Version: 6.6.11-surface-1
+Architecture: amd64
+Maintainer: root <root@c4bc8bc45dba>
+Installed-Size: 55647
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.6.11-surface-1_6.6.11-surface-1_amd64.deb
+Size: 9381228
+SHA256: 1b435b9b1a99f6ce01cb146047bbb76ed2d096e5046362eac116a750c3e945d1
+SHA1: d75d78004d5a68be7ebe6b93d204629682ae143d
+MD5sum: b91f220318a69ae0531857adb1ef395f
+Description: Linux kernel headers for 6.6.11-surface-1 on amd64
+ This package provides kernel header files for 6.6.11-surface-1 on amd64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-6.6.5-surface-1
 Source: linux-upstream
 Version: 6.6.5-surface-1
@@ -1468,19 +1487,19 @@ Description: Linux kernel headers for 6.6.6-surface-1 on amd64
 
 Package: linux-headers-surface
 Source: linux-surface
-Version: 6.6.6-surface-1
+Version: 6.6.11-surface-1
 Architecture: amd64
 Maintainer: surfacebot <surfacebot@users.noreply.github.com>
 Installed-Size: 7
-Depends: linux-headers-6.6.6-surface-1 (= 6.6.6-surface-1)
+Depends: linux-headers-6.6.11-surface-1 (= 6.6.11-surface-1)
 Homepage: https://github.com/linux-surface/linux-surface
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface/linux-headers-surface_6.6.6-surface-1_amd64.deb
+Filename: pool/main/l/linux-surface/linux-headers-surface_6.6.11-surface-1_amd64.deb
 Size: 2458
-SHA256: 2407bc199e43661cc2538894ee557942260d31b3ff69523d4bb0635abaf07600
-SHA1: 2dae27076ef6077e1815776d7ffc65cc12075c80
-MD5sum: 7b0ca50294c3cebb14e7db621d8a84de
+SHA256: 4fa673fe64f7e07ac41885638e13e972650709b01e63a949500ae4ca357a9c81
+SHA1: 8dae45c0b669a98c8fb6e469d956d30de41fd34e
+MD5sum: 9348ad891495b89eac3c3c4ef0c18195
 Description:
   Meta-package for linux-surface headers.
 
@@ -2744,6 +2763,24 @@ Description: Linux kernel, version 6.6.1-surface-1
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.6.1-surface-1.
 
+Package: linux-image-6.6.11-surface-1
+Source: linux-upstream
+Version: 6.6.11-surface-1
+Architecture: amd64
+Maintainer: root <root@c4bc8bc45dba>
+Installed-Size: 439481
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.6.11-surface-1_6.6.11-surface-1_amd64.deb
+Size: 83331962
+SHA256: 59da5abad3925abd086666c7a8e949301f3ea600c1dd7e819e7a8461b79660fb
+SHA1: 58504849cae9e669c34132e6cca7480198bb4122
+MD5sum: 4e28023b1f928b483291a6e73eb3604c
+Description: Linux kernel, version 6.6.11-surface-1
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.6.11-surface-1.
+
 Package: linux-image-6.6.5-surface-1
 Source: linux-upstream
 Version: 6.6.5-surface-1
@@ -2782,20 +2819,20 @@ Description: Linux kernel, version 6.6.6-surface-1
 
 Package: linux-image-surface
 Source: linux-surface
-Version: 6.6.6-surface-1
+Version: 6.6.11-surface-1
 Architecture: amd64
 Maintainer: surfacebot <surfacebot@users.noreply.github.com>
 Installed-Size: 7
-Depends: linux-image-6.6.6-surface-1 (= 6.6.6-surface-1)
+Depends: linux-image-6.6.11-surface-1 (= 6.6.11-surface-1)
 Recommends: iptsd
 Homepage: https://github.com/linux-surface/linux-surface
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface/linux-image-surface_6.6.6-surface-1_amd64.deb
-Size: 2466
-SHA256: 867f49b5c7e54357521b3dd8114e68a651c34c58dc48c27b5077a1a843adae4a
-SHA1: 2501c57c3a9f6645306261814967a247a74dfd16
-MD5sum: d3a0a34a89ee5b9e921a75570da8faad
+Filename: pool/main/l/linux-surface/linux-image-surface_6.6.11-surface-1_amd64.deb
+Size: 2474
+SHA256: 60c1b39428be797e25944c3b6cebce374d5562a8d69a0636bb6c48856a7b08c1
+SHA1: 08cd329f95d9dd70d47ab394f00e42ab86a6ad02
+MD5sum: 623b07e962f1decb0c5b702a62c3da56
 Description:
   Meta-package for linux-surface kernel images.
 
